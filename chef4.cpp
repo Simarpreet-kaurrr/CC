@@ -1,4 +1,4 @@
-//Binary Base Basics
+//Binary Base Basics SOLVED
 // Contest Code:FEB221C Problem Code:BINBASBASIC
 
 #include <iostream>

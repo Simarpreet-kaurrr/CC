@@ -1,3 +1,5 @@
+// SOLVED BUT TLE( FEB  1ST LONG  QUESTION DIGITAL MULTIPLIACTION BY K)
+
 #include <iostream>
 #include <string>
 using namespace std;

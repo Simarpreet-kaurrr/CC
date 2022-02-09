@@ -1,4 +1,4 @@
-//Bitwise Blend
+//Bitwise Blend not solved**
 // Contest Code:FEB221C Problem Code:BITBLEND
 
 // 2

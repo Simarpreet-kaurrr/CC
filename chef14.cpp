@@ -1,5 +1,5 @@
 // Contest Code:FEB222C Problem Code:BITSWAPS
-//Solved
+//Not Solved
 
 #include <iostream>
 using namespace std;
@@ -21,20 +21,16 @@ bool checksort(int arr[], int n){
                 arr[i]=min;
                 swap=0;
             }else{
+                int min2=arr[i];
+                for(int m=i+1;m<n;m++){
+                    if(arr[m]<min2){
+                        return 0;
+                    }
+                }
                 i++;
             }
             j=i,k=i;
             min=arr[i];
-        }
-    }
-
-    //Checking whether the array is sorted or not:-
-    int min2=arr[0];
-    for(int i=1;i<n;i++){
-        if(arr[i]>=min2){
-            min2=arr[i];
-        }else{
-            return 0;
         }
     }
     return 1;
